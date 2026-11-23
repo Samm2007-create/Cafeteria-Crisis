@@ -5,7 +5,7 @@ Course BU-209,Week 4 Assignment
 Team: Cyber Group
 
 Product Overview(Introduction)
-The document is about a specific problem we observed in the school's cafeteria and the product we are building to help resolve this problem is called Cafeteria Management and Delivery Platform. it is a digital platform designed to help the food accessibility and deplete overcrowding in the school's cafeteria  
+The document is about a specific problem we observed in the school's cafeteria and the product we are building to help resolve this problem is called Cafeteria Management and Delivery Platform. it is a digital platform designed to help the food accessibility and reduce overcrowding in the school's cafeteria  
 
 
 The Problem
@@ -13,28 +13,29 @@ We have observed various problems like over crowding and poor organization, part
 two students from 100 level, three from 200 level, and four students from 400 level, and the feedback was consistent across all groups. Students reported:
 -Long waiting times before getting their food.
 -Disorganized lines and zero order.
--A lot of pushing and crowding.
+-Frequent pushing and crowding.
 Notably, the 100 level students were surprised at how long it took to get their meals and they mentioned how disorganized the lines usually are. also the higher levels had similar complaints.
 
 
 Proposed Solution
 We are proposing an Advanced Cafeteria Management and Food Delivery System which would allow students and staff to able to order meals before arriving at the cafeteria.
 The platform will provide real time food availability, online tracking and optional campus food delivery which would really help the rowdiness at the cafeteria
+Scheduled food collection will also be included in order for students to be able to order food to be delivered to their halls and simply collect the foods when it's ready    
 
-
- Main users of the products
--All the students of the school: If need be students can request for their meals to delivered to their respective halls which would reduce overcrowding and time wastage in the cafeteria
--Academic and non-academics staff: Ordering of meals online, easy and secured access to meal plans
+ Main target users of the products
+-All the students of the school: If need be students can request for their meals to delivered to their respective halls which would reduce overcrowding and time wastage in the cafeteria.
+-Academic and non-academics staff: Ordering of meals online, easy and secured access to meal plans.
+-Cafeteria workers: Responsible for receiving orders, preparing meals, and updating the order statuses.
 -Cafeteria managers: Management of the prices, food availability, menus.
 -Delivery personnel: They would be able to accept delivery requests and deliver meals to desired locations.
 
 
  User stories
   As a student, I want to know when the food is running low or has already finished so that I won't waste my time going there.
-  As a student, I wnat to order my food ahead of time so that i can avoid long and streesful queues.
+  As a student, I want to order my food ahead of time so that I can avoid long and stressful queues.
   As a student, I want my food to be delivered to my hostel when I'm unable to come to the cafeteria.  
-  As a cafeteria worker, I want to see incoming orders so that i can prepare them on time.
-  As a delivery person, I want to see assigned orders and delivery locations so that i can deliver on time and to the right people.
+  As a cafeteria worker, I want to see incoming orders so that I can prepare them on time.
+  As a delivery person, I want to see assigned orders and delivery locations so that I can deliver on time and to the right people.
   As a user, I want to be able to report problems or give feedback so the cafeteria can upgrade and improve on their services.
 
 
@@ -68,6 +69,22 @@ The system will assign available delivery representatives to accepted orders.
 Delivery personnel shall be able to accept or decline assigned deliveries.
 The system shall calculate and also display delivery charges before order confirmation for safety purposes 
 
+Order Tracking;
+The system shall allow users to monitor their orders.
+Users will receive any updated needed when their order status change.
+
+User Login and Registration 
+The system allows students and staff to create accounts.
+Users will be able have access to their personnel's  order history.
+
+Payment management;
+The system shall support online physical payment options.
+Users shall receive payment confirmation where appilcable.
+
+Feedback and Complaints;
+Users shall be able to submit complaints and suggestions.
+Cafeteria management shall be able to review feedback and respond where neccessary.
+
 Non functional requirements
 Performance: The system should load it's pages under five seconds under normal and stable conditions.
 Usability: The platform should have a simple interface the staff and students can easily understand.  
@@ -98,7 +115,7 @@ The Acceptance Criteria
 User login: Registered users can log in using their valid credentials.
 User registration: A user can easily and successfully create an account using valid information. 
 Food Ordering: A user will be able to select available meals with the specific quantity of their choice and successfully place and order.
-Food Availability: When the main administrator updates the food availability, users can see the updated status without any issue at all.
+Food Availability: When an authorized cafeteria manager updates the food availability, users can see the updated status without any issue at all.
 Scheduled Collection: A user can select an available collection time and receive confirmation.
 Food Delivery: A user can select an approved campus location and request delivery.
 Order Tracking: Users can view the current status of their orders.
@@ -110,7 +127,7 @@ Feedback: Users can submit their feedback about the platform successfully withou
 
 Scopes and Priorities
 Out of the scope 
-The following features will be included in the project:
+The following features will be included in the initial version:
 Delivery outside the school campus.
 Restaurant services outside the school cafeteria.
 Integration with external restaurant platforms.
@@ -125,7 +142,7 @@ Unanswered Questions
 Will the school cafeteria management officially approve the use of the platform?
 Will students pay online, physically, or through both methods?
 
-Expected Answers and Successfully metrics 
+Expected Outcomes and Success metrics 
 -Basically, the success of the platform will be thoroughly measured by the reduction in physical overcrowding during busy periods, number of students and staff using the platform, Number of successfully completed food orders. so with careful and detailed measurements of the platform we hope the school would genuinely consider approving the immediate use of the platform.
 
 -The students would the option of being able to pay through the two methods either through online payment or physical payment.
